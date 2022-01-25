@@ -37,7 +37,7 @@ opettaja1 = Opettaja('Olli', 'Opettaja', 'Tieto- ja viestintätekniikka', 'A228'
 
 # Testataan oliota
 print('Opiskelija', opiskelija1.etunimi, opiskelija1.sukunimi, 'opiskelee', opiskelija1.osasto,'-osastolla')
-# print('Opettaja', opettaja1.etunimi, opettaja1.sukunimi, 'opettaa', opettaja1.osasto,'-osastolla työhuoneessa',tyohuoneet[0])
-
-# Testi numero 2
 print(opettaja1.etunimi, opettaja1.sukunimi, 'työskentelee huoneessa',opettaja1.tyohuone)
+
+# Oma versio käyttäen listaa hyödyksi
+# print('Opettaja', opettaja1.etunimi, opettaja1.sukunimi, 'opettaa', opettaja1.osasto,'-osastolla työhuoneessa',tyohuoneet[0])
