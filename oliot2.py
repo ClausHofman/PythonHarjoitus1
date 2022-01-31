@@ -36,7 +36,7 @@ opiskelija1 = Opiskelija('Jakke', 'Jäynä', 'ICT', 123456)
 opettaja1 = Opettaja('Olli', 'Opettaja', 'Tieto- ja viestintätekniikka', 'A228')
 
 # Testataan oliota
-print('Opiskelija', opiskelija1.etunimi, opiskelija1.sukunimi, 'opiskelee', opiskelija1.osasto,'-osastolla')
+print('Opiskelija', opiskelija1.etunimi, opiskelija1.sukunimi, 'opiskelee', opiskelija1.osasto,'-osastolla, opiskelijanumero', opiskelija1.opiskelijanumero)
 print(opettaja1.etunimi, opettaja1.sukunimi, 'työskentelee huoneessa',opettaja1.tyohuone)
 
 # Oma versio käyttäen listaa hyödyksi
